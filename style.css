@@ -1,0 +1,263 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:#292c37 ;
+}
+header {
+    display:flex;
+    justify-content: center;
+    height: 150px;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    margin:0 auto;
+    justify-content: space-between;
+    width: 990px;
+    
+}
+
+.logo1 {
+    flex:1;
+    align-items: center;
+    flex-direction: column; 
+     
+}
+.logo2 {
+    flex:1;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;  
+}
+.logo2 p {
+    color: rgb(113, 120, 126);
+    font-size: 20px;
+    margin-top: -35px;
+    margin-left: 45px;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+
+}
+.logo2 p:hover {
+    color: rgb(113, 120, 126);
+    font-size: 40px;
+    margin-top: -45px;
+    margin-left: -15px;
+    font-family: 'Dancing Script', cursive;
+    transition: all 0.6s;
+  
+
+}
+.text_kombi {
+    flex:1;        
+}
+.txtkombi {
+    color:#cccc;
+    margin-left: 90px;
+    margin-top: 60px;
+}
+
+.widget_bar {
+    flex: 1;
+    height: 40px;
+    width: 2px;
+    margin-top: -30px;
+    margin-left: -10px;
+    background-color: #cccc;
+    
+}
+.widget_bar:hover {
+    flex: 1;
+    height: 40px;
+    width: 2px;
+    margin-top: -30px;
+    margin-left: -10px;
+    background-color: #0077ff;
+    
+}
+.logovolks{
+    flex:1;
+    height: 100px;
+    margin: 20px;
+    margin-left: 0px;
+    
+}
+.Kombidecalc {
+    flex: 1;
+    height: 70px;
+    margin: 30px;
+    margin-left: 50px;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('../Images/banner.jpg');
+    background-position: center;
+    background-size:cover;
+    height: 680px;
+    
+}
+.banner_headline h1{
+    color: aliceblue;
+    font-size: 100px;
+    margin: 0px;
+    margin-top: 290px;
+    padding: 0px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.banner_headline h1:hover{
+    color: aliceblue;
+    font-size: 130px;
+    margin: 0px;
+    margin-top: 290px;
+    padding: 0px;
+    font-family: 'Dancing Script', cursive;
+    transition: all 0.5s;
+}
+.banner_headline h2{
+    color:aliceblue;
+    margin:0px;
+    padding:0px;
+    font-size: 20px;  
+}
+.banner_headline h3 {
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    text-align: right;
+
+}
+
+.profile {
+    margin-left: 260px;
+    margin-top: -170px;
+    
+}
+.photoprofile{
+    height: 350px;
+    border: white solid 10px;
+    border-bottom: white solid 30px;
+    
+}
+legend {
+    color: rgb(99, 99, 99);
+    text-decoration-style: inherit;
+    font-size: 10px;
+}
+.history {
+    color: aliceblue;
+}
+
+.history b{
+    color: rgb(96, 100, 104);
+}
+.history ul{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.history h1,
+.history h2 {
+    flex:1;
+    padding: 0px;
+    color: aliceblue;
+}
+
+.history h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+.history h2{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.legendfinal {
+    color: rgb(99, 99, 99);
+    font-size: 18px;
+    position: right;
+    text-align: right;
+}
+
+.legendfinal a{
+    color: #0077ff;
+}
+
+footer {
+    height: 150px;
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+
+.rodape h1{
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+footer h2{
+    font-size: 13px;
+    margin-top: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: #575a64;
+}
+.insta {
+    margin-top: -63px;
+    margin-left: 435px;
+
+}
+.logoinsta {
+    height: 25px;
+}
+
+@media (max-width:1000px) {
+    header {
+        width: max-content;
+    }
+    .logo1 {
+        margin-left: 60px;
+    }
+    #banner {
+        width: max-content;
+    }
+    .banner_headline h1 {
+        margin-left: 60px;
+    }  
+    .banner_headline h2 {
+        margin-left: 60px;
+    }  
+    .banner_headline h1:hover {
+        color: aliceblue;
+        font-size: 100px;
+        margin: 60px;
+        margin-top: 290px;
+        padding: 0px;
+        font-family: 'Dancing Script', cursive;
+        
+    }   
+    .banner_headline h3 {
+        margin-left: 60px;
+    }  
+    .history h2 {
+        margin:52px;
+    }
+    footer {
+        width: max-content;
+    } 
+    .rodape {
+        margin-left: 60px;
+    }    
+}
